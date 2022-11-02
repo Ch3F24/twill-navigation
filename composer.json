@@ -1,0 +1,24 @@
+{
+  "name": "ch3f24/twilll-navigation",
+  "description": "A twill package",
+  "homepage": "https://github.com/Ch3F24/twilll-navigation",
+  "license": "MIT",
+  "require": {
+    "area17/twill": "^2.6",
+    "kalnoy/nestedset": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwilllNavigation\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TwilllNavigation\\TwilllNavigationServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
